@@ -15,7 +15,7 @@ const Container = styled(Box)`
 const Stripe = () => {
   toast.configure();
   const navigate = useNavigate();
-  const URL = "";
+  const URL = "https://flipkart-backend-hzjx.onrender.com";
   const { product } = useSelector((state) => state.getProductDetails);
   async function handleToken(token, addresses) {
     const response = await axios.post(`${URL}/checkout`, {
