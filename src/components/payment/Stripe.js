@@ -15,7 +15,7 @@ const Container = styled(Box)`
 const Stripe = () => {
   toast.configure();
   const navigate = useNavigate();
-  const URL = "http://localhost:8000";
+  const URL = "";
   const { product } = useSelector((state) => state.getProductDetails);
   async function handleToken(token, addresses) {
     const response = await axios.post(`${URL}/checkout`, {
