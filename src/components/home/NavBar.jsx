@@ -13,6 +13,7 @@ const Component = styled(Box)(({ theme }) => ({
   height: "110px",
   [theme.breakpoints.down("lg")]: {
     margin: 0,
+    overflow: "hidden",
   },
 }));
 

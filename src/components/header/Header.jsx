@@ -69,7 +69,7 @@ const MenuIconWrapper = styled(IconButton)(({ theme }) => ({
   color: "inherit",
 
   [theme.breakpoints.down("md")]: {
-    display: "block",
+    display: "none",
   },
 }));
 

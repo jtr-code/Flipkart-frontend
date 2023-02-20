@@ -7,7 +7,7 @@ import TotalBalance from "./TotalBalance";
 //      <--------------------------------------- styled section starts-------------------------------->
 const Container = styled(Grid)(({ theme }) => ({
   padding: "30px 135px",
-  [theme.breakpoints.down("md ")]: {
+  [theme.breakpoints.down("md")]: {
     padding: "15px 0",
   },
 }));
